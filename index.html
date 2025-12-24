@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allcance Consultoria | Gestão Empresarial Estratégica</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+        h1, h2, h3, h4, .font-brand {
+            font-family: 'Montserrat', sans-serif;
+        }
+        .bg-allcance-green { background-color: #006652; }
+        .text-allcance-green { color: #006652; }
+        .bg-allcance-lime { background-color: #C4D600; }
+        .text-allcance-lime { color: #C4D600; }
+        .border-allcance-green { border-color: #006652; }
+        .border-allcance-lime { border-color: #C4D600; }
+        
+        /* Modern Utilities */
+        @keyframes bounce-slow {
+          0%, 100% { transform: translateY(0); }
+          50% { transform: translateY(-10px); }
+        }
+        .animate-bounce-slow {
+          animation: bounce-slow 4s infinite ease-in-out;
+        }
+        
+        ::-webkit-scrollbar {
+          width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+          background: #f1f1f1;
+        }
+        ::-webkit-scrollbar-thumb {
+          background: #006652;
+          border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+          background: #004d3e;
+        }
+
+        .text-shadow-glow {
+          text-shadow: 0 0 20px rgba(196, 214, 0, 0.4);
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-white text-gray-800 scroll-smooth selection:bg-allcance-lime selection:text-allcance-green">
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
