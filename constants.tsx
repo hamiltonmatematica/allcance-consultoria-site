@@ -1,12 +1,12 @@
 
 import React from 'react';
 import { Service, Client } from './types';
-import { 
-  Target, 
-  BarChart3, 
-  Users2, 
-  ShoppingCart, 
-  TrendingUp, 
+import {
+  Target,
+  BarChart3,
+  Users2,
+  ShoppingCart,
+  TrendingUp,
   Lightbulb,
   Award,
   Briefcase,
@@ -23,7 +23,7 @@ export const COLORS = {
 };
 
 export const STATS = [
-  { label: 'Anos de Experiência', value: '18+', icon: <Award className="w-5 h-5" /> },
+  { label: 'Anos de Experiência', value: '20+', icon: <Award className="w-5 h-5" /> },
   { label: 'Projetos Entregues', value: '500+', icon: <Briefcase className="w-5 h-5" /> },
   { label: 'Clientes Atendidos', value: '250+', icon: <Users className="w-5 h-5" /> },
   { label: 'Cidades Atuantes', value: '15+', icon: <Globe2 className="w-5 h-5" /> },
@@ -34,60 +34,60 @@ export const SERVICES: (Service & { icon: React.ReactNode })[] = [
     id: 'plano-negocio',
     title: 'Plano de Negócio',
     icon: <Target className="w-8 h-8" />,
-    description: 'Diagnóstico preciso e planejamento estratégico para o seu crescimento sustentável.',
+    description: 'Foco nos resultados, diagnóstico preciso, planejamento de ações e liderança com envolvimento da equipe.',
     details: [
-      'Análise SWOT de alta performance',
-      'Engajamento de Stakeholders',
+      'Análise SWOT e Stakeholder',
       'Árvore de Decisão e Gestão de Riscos',
-      'Balanced Scorecard (BSC)'
+      'Balanced Scorecard (BSC)',
+      'Análise de Maturidade Organizacional'
     ]
   },
   {
     id: 'gestao-financeira',
     title: 'Gestão Financeira',
     icon: <BarChart3 className="w-8 h-8" />,
-    description: 'Controle total de resultados e inteligência financeira para decisões ágeis.',
+    description: 'Ações que facilitem tomadas de decisões, garantindo controle mediante acompanhamento das movimentações.',
     details: [
       'DRE e Fluxo de Caixa',
-      'Análise de Capital de Giro',
+      'Análise Horizontal e Vertical',
       'Ponto de Equilíbrio Operacional',
-      'Auditoria de Custos e Despesas'
+      'Capital de Giro e Investimentos'
     ]
   },
   {
     id: 'recursos-humanos',
     title: 'Recursos Humanos',
     icon: <Users2 className="w-8 h-8" />,
-    description: 'Modelos de gestão modernos focados em performance e cultura organizacional.',
+    description: 'Organograma horizontal para democratização do conhecimento e tomada de decisões.',
     details: [
       'Organogramas Horizontais',
-      'Análise de Perfil Comportamental',
-      'Treinamentos de Liderança',
-      'Programas de Retenção de Talentos'
+      'Análise de Perfil do Colaborador',
+      'Processos Seletivos e Treinamentos',
+      'Avaliações Individuais e por Equipes'
     ]
   },
   {
     id: 'gestao-produtos',
     title: 'Gestão de Produtos',
     icon: <ShoppingCart className="w-8 h-8" />,
-    description: 'Otimização de mix, estoque e estratégias de precificação lucrativa.',
+    description: 'Entendimento sobre operações com mercadorias: compras, vendas, estoque e CMV.',
     details: [
+      'Gestão de Mix de Produtos',
       'Cálculo de Mark-up e Margem',
-      'Gestão Eficiente de Estoque',
-      'Padronização de Cadastros',
-      'Curva ABC de Vendas'
+      'Planejamento de Inventário',
+      'Tributações Estadual e Federal'
     ]
   },
   {
     id: 'gestao-comercial',
     title: 'Gestão Comercial',
     icon: <TrendingUp className="w-8 h-8" />,
-    description: 'Expansão de mercado com foco em funil de vendas e fidelização.',
+    description: 'Projetos comerciais através de planejamento, estratégia e avaliações com foco nos objetivos.',
     details: [
-      'Cultura Comercial Agressiva',
-      'Treinamento de Força de Vendas',
+      'Treinamento de Equipe de Vendas',
       'Políticas de Remuneração Variável',
-      'CRM e Jornada do Cliente'
+      'Comportamento Empreendedor',
+      'Fidelização de Clientes'
     ]
   },
   {
