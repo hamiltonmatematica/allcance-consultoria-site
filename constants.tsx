@@ -95,7 +95,7 @@ export const SERVICES: (Service & { icon: React.ReactNode })[] = [
     id: 'inovacao',
     title: 'Inovação & Estratégia',
     icon: <Lightbulb className="w-8 h-8" />,
-    description: 'Consultoria estratégica em inovação orientada a transformar desafios em vantagem competitiva concreta e novos modelos de receita.',
+    description: 'Consultoria estratégica em inovação orientada a transformar desafios em vantagem competitiva concreta, conectando decisões de alto nível a inovação aplicada e novos modelos de receita.',
     details: [
       'Transformação Digital',
       'Design Thinking Aplicado',
