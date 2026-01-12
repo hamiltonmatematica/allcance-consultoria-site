@@ -68,7 +68,7 @@ const About: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-bold text-gray-900 mb-1">Visão</h4>
-                  <p className="text-gray-500 text-sm">Potencializar negócios, alinhar estratégias e ampliar diferenciais competitivos.</p>
+                  <p className="text-gray-500 text-sm">Ser referência em gestão horizontal no Brasil, potencializando negócios, alinhando estratégias e ampliando diferenciais competitivos sustentáveis.</p>
                 </div>
               </div>
 
@@ -78,7 +78,7 @@ const About: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-bold text-gray-900 mb-1">Missão</h4>
-                  <p className="text-gray-500 text-sm">Identificar necessidades e oportunidades de melhoria para elaboração de projetos estratégicos e satisfação de nossos clientes.</p>
+                  <p className="text-gray-500 text-sm">Identificar necessidades e oportunidades de melhoria e estruturá-las em projetos estratégicos que se convertam em impacto mensurável, performance sustentável e satisfação consistente dos nossos clientes.</p>
                 </div>
               </div>
 
@@ -87,13 +87,36 @@ const About: React.FC = () => {
                   <ShieldCheck className="w-7 h-7" />
                 </div>
                 <div>
-                  <h4 className="text-lg font-bold text-gray-900 mb-1">Nossos Valores</h4>
-                  <div className="flex flex-wrap gap-x-4 gap-y-1">
-                    {['Ética', 'Parceria', 'Humildade', 'Fé', 'Conhecimento', 'Busca', 'Verdade'].map(v => (
-                      <span key={v} className="text-sm font-bold text-allcance-green flex items-center gap-1">
-                        <Check className="w-3 h-3" /> {v}
-                      </span>
-                    ))}
+                  <h4 className="text-lg font-bold text-gray-900 mb-2">Nossos Valores</h4>
+                  <div className="space-y-2">
+                    <div className="flex items-start gap-2">
+                      <Check className="w-4 h-4 text-allcance-green mt-0.5 flex-shrink-0" />
+                      <p className="text-sm text-gray-500"><span className="font-bold text-allcance-green">Ética</span> – decisões e relações pautadas por integridade.</p>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <Check className="w-4 h-4 text-allcance-green mt-0.5 flex-shrink-0" />
+                      <p className="text-sm text-gray-500"><span className="font-bold text-allcance-green">Parceria</span> – construção conjunta e corresponsabilidade pelos resultados.</p>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <Check className="w-4 h-4 text-allcance-green mt-0.5 flex-shrink-0" />
+                      <p className="text-sm text-gray-500"><span className="font-bold text-allcance-green">Humildade</span> – abertura permanente para ouvir, aprender e revisar caminhos.</p>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <Check className="w-4 h-4 text-allcance-green mt-0.5 flex-shrink-0" />
+                      <p className="text-sm text-gray-500"><span className="font-bold text-allcance-green">Fé</span> – confiança no propósito, nas pessoas e na capacidade real de transformação.</p>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <Check className="w-4 h-4 text-allcance-green mt-0.5 flex-shrink-0" />
+                      <p className="text-sm text-gray-500"><span className="font-bold text-allcance-green">Conhecimento</span> – profundidade técnica e aprendizado contínuo aplicado à gestão.</p>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <Check className="w-4 h-4 text-allcance-green mt-0.5 flex-shrink-0" />
+                      <p className="text-sm text-gray-500"><span className="font-bold text-allcance-green">Busca</span> – inconformismo disciplinado na direção de melhores resultados.</p>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <Check className="w-4 h-4 text-allcance-green mt-0.5 flex-shrink-0" />
+                      <p className="text-sm text-gray-500"><span className="font-bold text-allcance-green">Verdade</span> – transparência em diagnósticos, análises e recomendações, mesmo quando desconfortáveis.</p>
+                    </div>
                   </div>
                 </div>
               </div>
