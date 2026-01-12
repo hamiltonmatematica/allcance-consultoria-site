@@ -37,45 +37,46 @@ export const SERVICES: (Service & { icon: React.ReactNode })[] = [
     description: 'Plano de Negócio com foco em impacto mensurável, diagnóstico estratégico preciso, ações disciplinadas e liderança com envolvimento real da equipe.',
     details: [
       'Análise SWOT e Stakeholders',
-      'Árvore de Decisão e Riscos',
+      'Árvore de Decisão e Gestão de Riscos',
       'Balanced Scorecard (BSC)',
-      'Análise de Maturidade'
+      'Análise de Maturidade Organizacional'
     ]
   },
   {
     id: 'gestao-financeira',
     title: 'Gestão Financeira',
     icon: <BarChart3 className="w-8 h-8" />,
-    description: 'Ações financeiras estruturadas que qualificam a tomada de decisão e asseguram controle rigoroso por meio do monitoramento sistemático.',
+    description: 'Ações financeiras estruturadas que qualificam a tomada de decisão e asseguram controle rigoroso por meio do monitoramento sistemático das movimentações.',
     details: [
       'DRE e Fluxo de Caixa Integrados',
       'Análise Horizontal e Vertical',
       'Ponto de Equilíbrio Operacional',
-      'Gestão de Capital de Giro'
+      'Capital de Giro e Investimentos'
     ]
   },
   {
     id: 'recursos-humanos',
     title: 'Recursos Humanos',
     icon: <Users2 className="w-8 h-8" />,
-    description: 'Recursos Humanos estruturado em gestão horizontal, com organograma em rede que distribui papéis e democratiza o conhecimento crítico.',
+    description: 'RH em gestão horizontal, com organograma em rede que distribui papéis, democratiza conhecimento e torna explícita a governança de pessoas em todos os níveis.',
     details: [
-      'Arquitetura de Papéis (Job Description)',
-      'Governança de Pessoas',
-      'Performance e Entregas',
-      'Cultura como Sistema'
+      'Arquitetura de Papéis e Responsabilidades',
+      'Governança de Pessoas e Decisões de RH',
+      'Performance e Entregas como Eixo Central',
+      'Sustentabilidade Humana e Continuidade'
     ]
   },
   {
     id: 'gestao-compras',
     title: 'Gestão de Compras',
     icon: <ShoppingCart className="w-8 h-8" />,
-    description: 'Gestão de compras orientada a resultado econômico, com entendimento estruturado das operações de aquisição e impacto no CMV.',
+    description: 'Gestão de compras orientada a resultado econômico, com entendimento estruturado das operações de aquisição, cadastro, estoque e impacto no CMV para garantir margem e giro saudável.',
     details: [
       'Gestão de Mix de Produtos',
-      'Cadastro Padronizado',
+      'Cadastro Padronizado de Produtos',
       'Cálculo de Mark-up e Margem',
-      'Planejamento de Inventário'
+      'Planejamento de Inventário',
+      'Tributações Estadual e Federal'
     ]
   },
   {
