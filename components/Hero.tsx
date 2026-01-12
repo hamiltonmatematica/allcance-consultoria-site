@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
             </h1>
 
             <p className="text-xl md:text-2xl text-gray-500 max-w-2xl font-light leading-relaxed mb-10">
-              Desde 2005, transformamos o potencial de pequenas e médias empresas em resultados extraordinários através de inteligência estratégica e know-how técnico.
+              Desde 2005, convertemos potencial organizacional em resultados mensuráveis e sustentáveis, com inteligência estratégica, disciplina de gestão e rigor técnico.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-5">
