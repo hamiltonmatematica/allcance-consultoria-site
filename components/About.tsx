@@ -59,7 +59,7 @@ const About: React.FC = () => {
             <h3 className="text-5xl font-black text-gray-900 leading-tight mb-8">Potencializando negócios no Norte de Minas.</h3>
 
             <p className="text-gray-500 text-lg leading-relaxed mb-8">
-              Uma consultoria que transforma desafios em estratégia e gestão em resultado. Nossa missão é organizar processos, profissionalizar decisões e impulsionar o crescimento de negócios com visão de futuro. Atuamos lado a lado com você para construir soluções que funcionam na prática, não apenas no papel.
+              Desde 2005, a Allcance transforma potencial organizacional em impacto mensurável e performance sustentável. Nascida em Montes Claros, no Norte de Minas, e hoje atuando em nível Brasil, somos uma consultoria de gestão horizontal que estrutura decisões, papéis e fluxos para fortalecer inovação, competitividade e crescimento sustentável das organizações que assessoramos.
             </p>
 
             <div className="space-y-6">
