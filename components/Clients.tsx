@@ -36,8 +36,10 @@ const Clients: React.FC = () => {
         </div>
 
         <div className="mt-20 flex flex-col md:flex-row items-center gap-12 bg-white p-12 rounded-[2.5rem] shadow-xl border border-gray-100">
-          <div className="w-24 h-24 rounded-full bg-allcance-lime flex-shrink-0 flex items-center justify-center">
-            <span className="text-4xl">“</span>
+          <div className="w-24 h-24 rounded-full bg-gradient-to-br from-allcance-green to-allcance-lime flex-shrink-0 flex items-center justify-center shadow-lg">
+            <svg className="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+            </svg>
           </div>
           <div>
             <p className="text-xl md:text-2xl text-gray-900 font-medium leading-relaxed italic">

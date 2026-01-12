@@ -1,9 +1,15 @@
 
-import React from 'react';
+import React, { useState } from 'react';
 import { SERVICES } from '../constants';
-import { ArrowUpRight, CheckCircle2 } from 'lucide-react';
+import { ArrowUpRight, CheckCircle2, ChevronDown } from 'lucide-react';
 
 const Services: React.FC = () => {
+  const [expandedCard, setExpandedCard] = useState<string | null>(null);
+
+  const toggleCard = (id: string) => {
+    setExpandedCard(expandedCard === id ? null : id);
+  };
+
   return (
     <div className="py-32 bg-white relative overflow-hidden">
       {/* Decorative Blur */}
@@ -25,13 +31,20 @@ const Services: React.FC = () => {
           {SERVICES.map((service) => (
             <div
               key={service.id}
-              className="relative bg-white border border-gray-100 p-10 rounded-[2.5rem] hover:shadow-xl hover:border-allcance-green/20 transition-all duration-300 hover:-translate-y-1"
+              className={`relative bg-white border p-10 rounded-[2.5rem] transition-all duration-300 cursor-pointer ${expandedCard === service.id
+                  ? 'border-allcance-green shadow-2xl scale-[1.02]'
+                  : 'border-gray-100 hover:shadow-xl hover:border-allcance-green/20 hover:-translate-y-1'
+                }`}
+              onClick={() => toggleCard(service.id)}
             >
               <div className="mb-10 flex justify-between items-start">
                 <div className="p-4 rounded-2xl bg-gray-50 text-allcance-green">
                   {service.icon}
                 </div>
-                <ArrowUpRight className="w-6 h-6 text-gray-300" />
+                <ChevronDown
+                  className={`w-6 h-6 text-allcance-green transition-transform duration-300 ${expandedCard === service.id ? 'rotate-180' : ''
+                    }`}
+                />
               </div>
 
               <h4 className="text-2xl font-black text-gray-900 mb-4">
@@ -51,6 +64,39 @@ const Services: React.FC = () => {
                     </span>
                   </div>
                 ))}
+              </div>
+
+              {/* Expanded Content */}
+              <div
+                className={`overflow-hidden transition-all duration-500 ${expandedCard === service.id ? 'max-h-[2000px] opacity-100 mt-8' : 'max-h-0 opacity-0'
+                  }`}
+              >
+                <div className="pt-8 border-t border-allcance-green/20">
+                  <h5 className="text-lg font-black text-allcance-green mb-6">Detalhamento</h5>
+                  <div className="space-y-6 text-sm">
+                    {service.expandedDetails && service.expandedDetails.map((detail, idx) => (
+                      <div key={idx}>
+                        <h6 className="font-bold text-gray-900 mb-2 flex items-start gap-2">
+                          <CheckCircle2 className="w-4 h-4 text-allcance-green mt-0.5 flex-shrink-0" />
+                          {detail.title}
+                        </h6>
+                        {detail.description && (
+                          <p className="text-gray-600 ml-6 mb-2">{detail.description}</p>
+                        )}
+                        {detail.subItems && detail.subItems.length > 0 && (
+                          <ul className="ml-6 space-y-1">
+                            {detail.subItems.map((subItem, subIdx) => (
+                              <li key={subIdx} className="text-gray-500 flex items-start gap-2">
+                                <span className="text-allcance-lime mt-1">•</span>
+                                <span>{subItem}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                </div>
               </div>
             </div>
           ))}
