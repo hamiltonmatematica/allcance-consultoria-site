@@ -56,7 +56,6 @@ const About: React.FC = () => {
 
           <div>
             <h2 className="text-allcance-green text-xs font-black tracking-[0.4em] uppercase mb-4">Quem Somos</h2>
-            <h3 className="text-5xl font-black text-gray-900 leading-tight mb-8">Potencializando negócios no Norte de Minas.</h3>
 
             <p className="text-gray-500 text-lg leading-relaxed mb-8">
               Desde 2005, a Allcance transforma potencial organizacional em impacto mensurável e performance sustentável. Nascida em Montes Claros, no Norte de Minas, e hoje atuando em nível Brasil, somos uma consultoria de gestão horizontal que estrutura decisões, papéis e fluxos para fortalecer inovação, competitividade e crescimento sustentável das organizações que assessoramos.
