@@ -40,10 +40,9 @@ const Clients: React.FC = () => {
             <span className="text-4xl">“</span>
           </div>
           <div>
-            <p className="text-xl md:text-2xl text-gray-900 font-medium leading-relaxed italic mb-4">
+            <p className="text-xl md:text-2xl text-gray-900 font-medium leading-relaxed italic">
               "A Allcance não apenas reorganizou nossas finanças; mudou a forma como pensamos e decidimos sobre o negócio. Hoje temos clareza estratégica das prioridades, leitura objetiva dos números e segurança para investir com responsabilidade."
             </p>
-            <p className="text-allcance-green font-black uppercase tracking-widest text-sm">— Depoimento de Parceiro Estratégico</p>
           </div>
         </div>
       </div>
