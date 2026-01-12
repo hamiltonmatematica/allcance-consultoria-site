@@ -12,7 +12,7 @@ const Contact: React.FC = () => {
             <h2 className="text-allcance-green text-sm font-black tracking-[0.4em] uppercase mb-4">Contato</h2>
             <h3 className="text-5xl font-black text-gray-900 mb-8 leading-tight">Vamos conversar sobre o seu negócio?</h3>
             <p className="text-gray-500 mb-12 text-lg font-light">
-              Estamos prontos para diagnosticar suas necessidades e propor melhorias estratégicas para sua empresa.
+              Estamos prontos para estruturar um diagnóstico estratégico, identificar prioridades reais e propor melhorias que gerem impacto mensurável e performance sustentável para a sua organização.
             </p>
 
             <div className="space-y-10">
@@ -55,7 +55,7 @@ const Contact: React.FC = () => {
 
           <div className="bg-gray-50 p-10 rounded-[2.5rem] border border-gray-100 shadow-sm relative overflow-hidden">
             <div className="absolute top-0 right-0 w-32 h-32 bg-allcance-lime/10 rounded-full -mr-16 -mt-16"></div>
-            
+
             <form className="relative space-y-6">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div>

@@ -31,60 +31,60 @@ export const STATS = [
 
 export const SERVICES: (Service & { icon: React.ReactNode })[] = [
   {
-    id: 'plano-negocio',
-    title: 'Plano de Negócio',
+    id: 'gestao-estrategica',
+    title: 'Gestão Estratégica',
     icon: <Target className="w-8 h-8" />,
-    description: 'Foco nos resultados, diagnóstico preciso, planejamento de ações e liderança com envolvimento da equipe.',
+    description: 'Plano de Negócio com foco em impacto mensurável, diagnóstico estratégico preciso, ações disciplinadas e liderança com envolvimento real da equipe.',
     details: [
-      'Análise SWOT e Stakeholder',
-      'Árvore de Decisão e Gestão de Riscos',
+      'Análise SWOT e Stakeholders',
+      'Árvore de Decisão e Riscos',
       'Balanced Scorecard (BSC)',
-      'Análise de Maturidade Organizacional'
+      'Análise de Maturidade'
     ]
   },
   {
     id: 'gestao-financeira',
     title: 'Gestão Financeira',
     icon: <BarChart3 className="w-8 h-8" />,
-    description: 'Ações que facilitem tomadas de decisões, garantindo controle mediante acompanhamento das movimentações.',
+    description: 'Ações financeiras estruturadas que qualificam a tomada de decisão e asseguram controle rigoroso por meio do monitoramento sistemático.',
     details: [
-      'DRE e Fluxo de Caixa',
+      'DRE e Fluxo de Caixa Integrados',
       'Análise Horizontal e Vertical',
       'Ponto de Equilíbrio Operacional',
-      'Capital de Giro e Investimentos'
+      'Gestão de Capital de Giro'
     ]
   },
   {
     id: 'recursos-humanos',
     title: 'Recursos Humanos',
     icon: <Users2 className="w-8 h-8" />,
-    description: 'Organograma horizontal para democratização do conhecimento e tomada de decisões.',
+    description: 'Recursos Humanos estruturado em gestão horizontal, com organograma em rede que distribui papéis e democratiza o conhecimento crítico.',
     details: [
-      'Organogramas Horizontais',
-      'Análise de Perfil do Colaborador',
-      'Processos Seletivos e Treinamentos',
-      'Avaliações Individuais e por Equipes'
+      'Arquitetura de Papéis (Job Description)',
+      'Governança de Pessoas',
+      'Performance e Entregas',
+      'Cultura como Sistema'
     ]
   },
   {
-    id: 'gestao-produtos',
-    title: 'Gestão de Produtos',
+    id: 'gestao-compras',
+    title: 'Gestão de Compras',
     icon: <ShoppingCart className="w-8 h-8" />,
-    description: 'Entendimento sobre operações com mercadorias: compras, vendas, estoque e CMV.',
+    description: 'Gestão de compras orientada a resultado econômico, com entendimento estruturado das operações de aquisição e impacto no CMV.',
     details: [
       'Gestão de Mix de Produtos',
+      'Cadastro Padronizado',
       'Cálculo de Mark-up e Margem',
-      'Planejamento de Inventário',
-      'Tributações Estadual e Federal'
+      'Planejamento de Inventário'
     ]
   },
   {
     id: 'gestao-comercial',
     title: 'Gestão Comercial',
     icon: <TrendingUp className="w-8 h-8" />,
-    description: 'Projetos comerciais através de planejamento, estratégia e avaliações com foco nos objetivos.',
+    description: 'Gestão comercial orientada à geração de receita sustentável, com projetos estruturados em planejamento, estratégia e avaliações contínuas.',
     details: [
-      'Treinamento de Equipe de Vendas',
+      'Treinamento em Papéis Comerciais',
       'Políticas de Remuneração Variável',
       'Comportamento Empreendedor',
       'Fidelização de Clientes'
@@ -94,10 +94,10 @@ export const SERVICES: (Service & { icon: React.ReactNode })[] = [
     id: 'inovacao',
     title: 'Inovação & Estratégia',
     icon: <Lightbulb className="w-8 h-8" />,
-    description: 'Consultoria arrojada para transformar desafios em vantagens competitivas.',
+    description: 'Consultoria estratégica em inovação orientada a transformar desafios em vantagem competitiva concreta e novos modelos de receita.',
     details: [
       'Transformação Digital',
-      'Design Thinking aplicado',
+      'Design Thinking Aplicado',
       'Novos Modelos de Receita',
       'Benchmarking de Mercado'
     ]

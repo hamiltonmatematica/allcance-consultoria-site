@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import AudioStory from './components/AudioStory';
 import About from './components/About';
 import Services from './components/Services';
 import Clients from './components/Clients';
@@ -25,6 +26,9 @@ const App: React.FC = () => {
       <main className="flex-grow">
         <section id="inicio">
           <Hero />
+        </section>
+        <section id="historia">
+          <AudioStory />
         </section>
         <section id="sobre" className="bg-gray-50">
           <About />

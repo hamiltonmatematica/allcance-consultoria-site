@@ -23,7 +23,7 @@ const About: React.FC = () => {
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-4 pt-12">
                 <img
-                  src="https://images.unsplash.com/photo-1600880212319-4a024abc3596?q=80&w=2070&auto=format&fit=crop"
+                  src="/Imagem1.png"
                   className="rounded-3xl shadow-lg w-full aspect-square object-cover"
                   alt="Business focus"
                 />
@@ -37,7 +37,7 @@ const About: React.FC = () => {
                   <p className="text-xs font-bold uppercase tracking-widest opacity-70">Anos de Mercado</p>
                 </div>
                 <img
-                  src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop"
+                  src="/Imagem1.png"
                   className="rounded-3xl shadow-lg w-full aspect-[3/4] object-cover"
                   alt="Team work"
                 />
@@ -59,7 +59,7 @@ const About: React.FC = () => {
             <h3 className="text-5xl font-black text-gray-900 leading-tight mb-8">Potencializando negócios no Norte de Minas.</h3>
 
             <p className="text-gray-500 text-lg leading-relaxed mb-8">
-              A Allcance é especializada em consultoria de empresas de pequeno e médio porte em diversos segmentos. Desde 2005 no cenário Norte Mineiro, com uma equipe de consultores com know-how e visão arrojada, primamos pela inovação e competitividade dos parceiros. A integração de valores primordiais aos recursos das empresas retrata o ideal de busca, profissionalismo e capacidade de colaborar com o desenvolvimento empresarial de nossa região e estado.
+              Uma consultoria que transforma desafios em estratégia e gestão em resultado. Nossa missão é organizar processos, profissionalizar decisões e impulsionar o crescimento de negócios com visão de futuro. Atuamos lado a lado com você para construir soluções que funcionam na prática, não apenas no papel.
             </p>
 
             <div className="space-y-6">
